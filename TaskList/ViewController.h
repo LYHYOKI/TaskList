@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UIActionSheetDelegate,UITableViewDataSource,UITableViewDelegate>
+{
+    NSMutableArray *taskList;
+    NSUserDefaults *user;
+}
 
+
+- (IBAction)showInputMethod:(id)sender;
 
 @end
 

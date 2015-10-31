@@ -415,6 +415,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lyh.TaskList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -426,6 +427,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lyh.TaskList;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -496,6 +498,7 @@
 				145792121BE47DD5009C05AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		145792131BE47DD5009C05AE /* Build configuration list for PBXNativeTarget "TaskListTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				145792151BE47DD5009C05AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		145792161BE47DD5009C05AE /* Build configuration list for PBXNativeTarget "TaskListUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				145792181BE47DD5009C05AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
